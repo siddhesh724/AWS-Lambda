@@ -1,0 +1,9 @@
+auther from scratch
+funtion name same as file name : dynamodb
+runtime python 3.7
+role : IAM --> service role --> aws service , Lambda --> dynamodb full access 
+create s3 bucket --> ACl disable --> unclick block public access --> tick on acknowledge --> create
+go to dynamo db --> create new table --> name as per in code (new table) --> Partition key (Item in python code) --> create table
+create funtion 
+add trigger :s3 all action
+put code --> deploy
